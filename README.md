@@ -23,6 +23,7 @@ git clone
 ## How to Use
 
 1. 目次を入れたいmarkdownを開く．
+1. 目次を挿入したい行に`INDEX SCENE`と挿入
 1. commandを実行
 
 ```python
@@ -30,6 +31,8 @@ python mdex.py
 ```
 
 目次は，タイトル（heading）から自動で取得し，idを生成，`a`タグに関連づけられます．  
+なお，INDEX SCENEがない場合は目次は挿入されません．  
+また，複数のINDEX SCENEがある場合，最初に見つかった行に挿入します．
 
 <a id="INDEX-option2" name="option"></a>
 
